@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-purple-100 min-h-screen flex items-center justify-center">
+  <div class="bg-white rounded-2xl shadow-xl flex w-full max-w-5xl overflow-hidden">
+    
+    <!-- Left Panel -->
+    <div class="w-1/2 p-10">
+      <h2 class="text-2xl font-semibold text-center text-gray-800">Log In</h2>
+      <p class="text-center text-gray-500 text-sm mb-6">Welcome back! Please enter your details</p>
+
+      <form class="space-y-4">
+        <div>
+          <label class="block text-gray-700 text-sm font-medium">Email</label>
+          <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400">
+        </div>
+        <div>
+          <label class="block text-gray-700 text-sm font-medium">Password</label>
+          <div class="relative">
+            <input type="password" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400">
+            <span class="absolute right-3 top-2.5 text-gray-400 cursor-pointer">&#128065;</span>
+          </div>
+        </div>
+        <div class="text-right">
+          <a href="#" class="text-sm text-purple-500 hover:underline">forgot password ?</a>
+        </div>
+        <button type="submit" class="w-full bg-purple-500 text-white py-2 rounded-md hover:bg-purple-600 transition">Log in</button>
+      </form>
+
+      <div class="flex items-center my-6">
+        <hr class="flex-grow border-gray-300">
+        <span class="mx-2 text-gray-400 text-sm">Or Continue With</span>
+        <hr class="flex-grow border-gray-300">
+      </div>
+
+      <div class="flex space-x-4 justify-center">
+        <button class="flex items-center gap-2 px-4 py-2 border rounded-md">
+          <img src="https://www.svgrepo.com/show/475656/google-color.svg" class="w-5 h-5" alt="Google">
+          Google
+        </button>
+        <button class="flex items-center gap-2 px-4 py-2 border rounded-md">
+          <img src="https://www.svgrepo.com/show/452196/facebook-1.svg" class="w-5 h-5" alt="Facebook">
+          Facebook
+        </button>
+      </div>
+
+      <p class="text-sm text-center text-gray-600 mt-6">
+        Don't have account? <a href="#" class="text-purple-500 font-medium hover:underline">Sign up</a>
+      </p>
+    </div>
+
+    <!-- Right Panel with Image -->
+    <div class="w-1/2 relative">
+      <img src="https://t3.ftcdn.net/jpg/06/26/27/72/240_F_626277268_MjrR4hnIj8WDICVZ5dUdpcipvAVAp9xw.jpg" alt="Fitness" class="h-full w-full object-cover rounded-r-2xl">
+    </div>
+  </div>
+</body>
+</html>

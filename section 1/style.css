@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(43, 164, 67);
+    border-radius: 10px;
+    margin: 10px 50px;
+    border: 10px solid red;
+    padding: 20px ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Smooch Sans;
+}
+.head1{
+    font-weight: 900;
+    text-decoration: underline  black wavy;
+    text-align: center;
+    text-shadow: 5px 5px 10px purple;
+}
